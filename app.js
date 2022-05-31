@@ -35,3 +35,8 @@ M.Autocomplete.init(autocomplete, {
 const materialBoxed = document.querySelectorAll('.materialboxed');
 // eslint-disable-next-line no-undef
 M.Materialbox.init(materialBoxed, {});
+
+//SCROLLSPY
+const scrollSpy = document.querySelectorAll('.scrollspy');
+// eslint-disable-next-line no-undef
+M.ScrollSpy.init(scrollSpy, {});

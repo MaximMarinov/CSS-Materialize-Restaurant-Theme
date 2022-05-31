@@ -28,3 +28,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .section-follow .fa-3x{
     margin: 5px 10px !important;
 }
+
+img {
+    filter: brightness(70%);
+}
