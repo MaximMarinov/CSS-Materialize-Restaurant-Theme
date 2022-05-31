@@ -30,3 +30,8 @@ M.Autocomplete.init(autocomplete, {
         "Seafood Risotto": null,
     }
 });
+
+//GALLERY
+const materialBoxed = document.querySelectorAll('.materialboxed');
+// eslint-disable-next-line no-undef
+M.Materialbox.init(materialBoxed, {});
