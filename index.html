@@ -6,6 +6,7 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" href="css/main.css">
       <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,7 +14,7 @@
       <title>Restaurant</title>
     </head>
 
-    <body>
+    <body id="home" class="scrollspy">
 
         <!-- NAVBAR -->
         <div class="navbar-fixed">
@@ -91,6 +92,19 @@
                   </div>
                 </li>
               </ul>
+        </section>
+
+        <section id="search" class="section section-search orange darken-1 white-text center scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h3>Search Dishes</h3>
+                        <div class="input-field">
+                            <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Pizza Peperone, Pasta Carbonara, Medium Rare Steak, Sushi Alaska, etc...">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
       <!--JavaScript at end of body for optimized loading-->
