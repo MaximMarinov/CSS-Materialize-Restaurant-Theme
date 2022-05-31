@@ -24,3 +24,7 @@ input[type="search"]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
     box-shadow: 0 1px 0 0 orange !important;
 }
+
+.section-follow .fa-3x{
+    margin: 5px 10px !important;
+}
